@@ -230,7 +230,7 @@
             "url('images/Mobile/" + i + ".jpeg')";
           // "url('images/Web/" + i + ".png')";
         }
-      }, 5000);
+      }, 3200);
     }
   };
 
