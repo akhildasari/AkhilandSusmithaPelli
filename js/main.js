@@ -190,7 +190,7 @@
     var i = Math.floor(Math.random() * 6);
     // document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
     document.getElementById("fh5co-header").style.backgroundImage =
-      "url('images/Web/" + i + ".jpg')";
+      "url('images/Web/" + i + ".jpeg')";
   };
 
   var loadICS = function () {
@@ -209,10 +209,10 @@
     if (document.getElementById("fh5co-header") != null) {
       if (x.matches)
         document.getElementById("fh5co-header").style.backgroundImage =
-          "url('images/Mobile/1.jpg')";
+          "url('images/Mobile/1.jpeg')";
       else
         document.getElementById("fh5co-header").style.backgroundImage =
-          "url('images/Mobile/1.jpg')";
+          "url('images/Mobile/1.jpeg')";
       // "url('images/Web/1.png')";
 
       setInterval(function () {
@@ -220,14 +220,14 @@
           if (i >= 9) i = 0;
           i = i + 1;
           document.getElementById("fh5co-header").style.backgroundImage =
-            "url('images/Mobile/" + i + ".jpg')";
+            "url('images/Mobile/" + i + ".jpeg')";
         }
         // document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
         else {
           if (i >= 9) i = 0;
           i = i + 1;
           document.getElementById("fh5co-header").style.backgroundImage =
-            "url('images/Mobile/" + i + ".jpg')";
+            "url('images/Mobile/" + i + ".jpeg')";
           // "url('images/Web/" + i + ".png')";
         }
       }, 5000);
